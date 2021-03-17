@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <p style="text-align: center;color: #000;font-size: 50px;">用戶調查</p>
+      <nav class="navbar navbar=expend-sm navbar-light bg-light">
+
+    </nav>
+    <div class="jumbotron-fluid">
+
+    </div class="m-5">
+    <div style="margin: 30px;">
+    <form action="check.php" method="post">
+      <div class="form-group">
+        <label for="Name">姓名</label>
+        <input type="text" name="Name" id="Name" class="form-control" placeholder="請輸入姓名">
+      </div>
+      <div class="form-group">
+        <label for="data">生日</label>
+        <input type="data" name="data" id="data" class="form-control" placeholder="請輸入出生年月日格式為:yyyy/mm/dd">
+
+
+      </div>
+      <p>性別:</p>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="sex" id="" value="M" checked>
+       
+          男性
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="sex" id="" value="W" checked>
+          女性
+        </label>
+      </div>
+      <p>興趣:</p>
+      <div class="form-check form-check-inline">
+        <label class="form-check-label  m-l2">
+          <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 閱讀
+        </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <label class="form-check-label  m-l2">
+          <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 玩電腦
+        </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <label class="form-check-label  m-l2">
+          <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 聽音樂
+        </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <label class="form-check-label  m-l2">
+          <input class="form-check-input " type="checkbox" name="" id="" value="checkedValue"> 看電影
+        </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <label class="form-check-label  m-l2">
+          <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 運動
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="">最高學歷</label>
+        <select class="form-control" name="degree" id="">
+          <option value="碩士以上">碩士以上</option>
+          <option value="3">大學</option>
+          <option value="2">高中</option>
+          <option value="1">國中以下</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="">家庭收入</label>
+        <select class="form-control" name="degree" id="">
+          <option value="4">小康</option>
+          <option value="3">中等</option>
+          <option value="2">貧窮</option>
+          <option value="1">無收入</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="">宗教信仰</label>
+        <select class="form-control" name="degree" id="">
+          <option value="4">佛教</option>
+          <option value="3">道教</option>
+          <option value="2">伊斯蘭教</option>
+          <option value="1">天主教或基督教</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="msg">建議</label>
+        <textarea class="form-control" name="msg" id="msg" rows="4"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">送出</button>
+
+    </form>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
